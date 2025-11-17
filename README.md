@@ -29,9 +29,9 @@ This project uses **WebSockets** for low-latency communication, processes audio 
 
 ## 🛠️ Deployment
 
-1.  **Prerequisite:** Install and configure the Modal CLI (`pip install modal-client`, `modal setup`).
+1.  **Prerequisite:** Install and configure the Modal CLI (`pip install modal`, `python -m modal setup`).
 2.  **Deploy:** Run the deployment command from the project root:
     ```bash
-    modal deploy app.py
+    modal -m serve folder.app
     ```
 3.  **Access:** Navigate to the public URL provided by Modal. Grant microphone access and start speaking for real-time output.
